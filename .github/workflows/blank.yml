@@ -2,7 +2,7 @@ name: Generate GitHub Activity
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight UTC
+    - cron: '15 7 * * *'  # 7:15 AM UTC (which is 12:45 PM IST)
   workflow_dispatch: # Allows manual trigger
 
 jobs:
